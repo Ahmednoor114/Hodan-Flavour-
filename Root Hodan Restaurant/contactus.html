@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+    Name: Ahmednoor Abdi
+    Date: 05/27/2021
+    Most recent revision:
+-->
+<html lang="en">
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+    <Main>
+        <header> 
+            <h1>Hodan Flavour</h1>
+        </header>
+        <hr/>
+        <Nav>
+            <a href="contactus.html">Contact Us</a>        
+            <a href="menu.html">Menu</a>
+            <a href="index.html">Home</a>
+.            <!-- Navigation Bar-->
+        </Nav>
+        <hr/>
+        <!-- Text Input for Name, Email and Phone number-->
+        <form action="fakePage.html" method="POST">
+        Name : <input type="text" name="name" /> <br/>
+        Email: <input type="text" name="Email" /><br/>
+        Phone: <input type="text" name="Phone" /><br/>
+        <!-- dropdown menu for Catering, Private, Feedback and Other. -->
+        <label for="Reason for Inquiry">Reason for Inquiry:</label>
+        <select name="contact" id="contact">
+        <option value="default"><Catering>--Catering--</option>
+        <option value="private">Private Party</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Other">Other</option>
+        </select> <br/>
+        <!-- Textarea  Informatonal Box-->
+        <label for="info">Additional Information:</label><br/>
+        <textarea name="Info" id="Info" cols="20" rows="5"></textarea><br/>
+        <!-- Radio for Yes or No-->
+        <label for="Radio">Have you been to the restaurant?</label>
+        <input type="radio" name="answer" id="no" value="No" checked >
+        <label for="No">No</label>
+        <input type="radio" name="answer" id="yes" value="yes">
+        <label for="Yes">Yes</label><br/>
+        <!-- Checkbox for week days -->
+        <label for="Week">Best days to contact you</label>
+        <input type="checkbox" name="Monday" id="Monday" value="Monday">
+        <label for="Monday">M</label>
+        <input type="checkbox" name="Tuesday" id="Tuesday" value="Tuesday">
+        <label for="Tuesday">T</label>
+        <input type="checkbox" name="Wednesday" id="Wednesday" value="Wednesday">
+        <label for="Wednesday">W</label>
+        <input type="Checkbox" name="Thursday" id="Thursday">
+        <label for="Thursday">Th</label>
+        <input type="checkbox" name="Friday" id="Friday">
+        <label for="Friday">F</label><br/>
+        <!--Input Type Button for Send Request-->
+        <input type="button" name="Send Request" id="Send Request" value="Send Request">
+     </form>
+            
+        <hr/>
+        <footer>
+            <p> 3624 W 50th Street Minneapolis, MN 55410</p>
+            <P>  Main Line: 612-767-4411 </p>
+        </footer> 
+        <hr/>  
+    </Main>
+    
+</body>
+</html>
