@@ -1,118 +1,230 @@
-<!DOCTYPE html>
 <!--
     Name: Ahmednoor Abdi
     Date: 05/27/2021
     Most recent revision:
 -->
+
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Menu</title>
-    <link rel="stylesheet" href="StyleSheet/restaurantStyles.css" type="text/css">
-</head>
-<body>
-    <Main>
-        <header> 
-            <h1>Hodan Menu</h1>
-        </header>
+
+    <head>
+        <title>Menu</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="StyleSheet/restaurantStyles.css" type="text/css">
+    </head>
+
+    <style>
+
+        .carousel {
+            background-color: rgb(35, 75, 62);
+            height: 300px;
+        }
+        .carousel {
+            height: 300px;
+         }
+        .carousel-inner {
+            width: 80%;
+            height: 100%;
+            margin: 10px auto;
+        }
+        .carousel-item {
+            
+            text-align: center;
+            margin: 12px auto;
+        }
+        .carousel-item h2 {
+            color: white;
+        }
+        .row {
+            width: 100%;
+            margin: 10px auto;
+        }
+
+        .col {
+            width:20%;
+            margin: 0px 10px;
+            text-align: center;
+            background-color: grey
+
+        }
+
+        table {
+            width: 80%;
+            margin: 5px auto;
+        }
+
+    </style>
+
+    <body>
+        <Main>
+            <header> 
+                <div class = "main-header">
+                    <h1>HomePage</h1>
+                    <div class = "circles">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span> 
+                </div>
+            </header>
+
+            <div class = "restaurantName"> 
+                <h1> <em>Hodan Deli & Grill</em></h1>
+            </div>
+            
+            <Nav class = "main-nav">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="contactus.html">Contact Us</a>        
+    .            <!-- Navigation Bar-->
+            </Nav>
+
+            <br>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+
+				  <div class="carousel-item active">
+					<h2 class="d-block w-100">We're opening a new location!</h2>
+				  </div>
+
+				  <div class="carousel-item">
+					<h2 class="d-block w-100">We're rolling out our seasonal menu, with special options for this season.</h2>
+				  </div>
+
+				  <div class="carousel-item">
+					<h2 class="d-block w-100">The Drink of the Month is SG Special Brew.</h2>
+				  </div>
+
+				</div>
+
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+
+			  </div>
+			
+
+            <hr/>
+            <div class = "main-container">
+                <section class = "row">
+
+                    <article class = "col">
+                        <strong>Burger and Fries</strong>
+                        <br/>An Amercan Classical<br/> 
+                        Your choice- with or without cheese<br/>
+                    Pickle, onion, tomato, and lettuce<br/>
+                    Served with our famous thick cut<br/>
+                    french fries<br/>
+                    $8.95
+                    </article>
+             
+                    <article class = "col">
+                        <strong>Hot Dog and Chips</strong>
+                        <br/>An Summer Classical<br/> 
+                        Your choice-white or wheat bun<br/>
+                        Relish, mustard, and ketchup<br/>
+                        Served with our house-made chips<br/>
+                        french fries<br/>
+                        $7.95
+                    </article>
+                    <article class = "col">
+                        <strong>Italian Sausage and Peppers</strong>
+                        <br/>An All-Time Favorite!<br/> 
+                        Your choice-Mild or spicy Cole Slow<br/>
+                        Served with garlic mashers<br/>
+                        $10.95
+                    </article >
+                </section>
+           
+                <section class = "row">
+                    <article class = "col">
+                        <strong>Tanderloin Sandwich and Chips</strong>
+                        <br/>Really Hits the Spot<br/> 
+                        Plain or Sesame Seed Bun<br/>
+                        Pickle, onion, tomato, and lettuce<br/>
+                        Served with our house-made chips<br/>
+                        french fries<br/>
+                        $8.95
+                    </article>
+                       <article class = "col">
+                        <strong>House Salad</strong>
+                        <br/>An Summer Classical<br/> 
+                        Your choice-with or without cheese<br/>
+                        Iceberg lettuce, tomatoes, peppers<br/>
+                        Thousand Island or Ranch<br/>
+                        Dressubg Served with a dinner roll<br/>
+                        $6.95
+                    </article>
+          
+                    <article class = "col">
+                        <strong>Brisket Sandwich and Fries</strong>
+                        <br/>A Taste of Texas!<br/> 
+                            Smoked Brisket on thick-cut<br/>
+                        Texas Toast<br/>
+                        Cole Slaw<br/>
+                        Served with our famous thick-cut<br/>
+                        French fries<br/>
+                        $7.95
+                    </article>
+        
+                </section> 
+
+            </div>
+            
+
+            <section class = "row">
+                <table>
+                    <thead align="left">
+                        <tr  colspan="2">
+                            <th>Beverages</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Root Beer</td>
+                        <td>$3.00 </td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Water</td>
+                        <td>$1.25 </td>
+                    </tr>
+                    <tr>
+                        <td>Lemonade</td>
+                        <td>$1.00 </td>
+                    </tr>
+                    <tr>
+                        <td>Iced Tea</td>
+                        <td>$1.25 </td>
+                    </tr>
+                </tbody>
+                </table>
+            </section>
+
         <hr/>
-        <Nav>
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="contactus.html">Contact Us</a>        
-.            <!-- Navigation Bar-->
-        </Nav>
-        <hr/>
-        <section>
-            <article>
-                <strong>Burger and Fries</strong>
-                <br/>An Amercan Classical<br/> 
-                Your choice- with or without cheese<br/>
-               Pickle, onion, tomato, and lettuce<br/>
-               Served with our famous thick cut<br/>
-               french fries<br/>
-               $8.95
-            </article><br/>
-            <article >
-                <strong>Hot Dog and Chips</strong>
-                <br/>An Summer Classical<br/> 
-                Your choice-white or wheat bun<br/>
-               Relish, mustard, and ketchup<br/>
-               Served with our house-made chips<br/>
-               french fries<br/>
-               $7.95
-            </article><br/>
-            <article>
-                <strong>Italian Sausage and Peppers</strong>
-                <br/>An All-Time Favorite!<br/> 
-                Your choice-Mild or spicy Cole Slow<br/>
-               Served with garlic mashers<br/>
-               $10.95
-            </article><br/>
-            <article>
-            <strong>Tanderloin Sandwich and Chips</strong>
-                <br/>Really Hits the Spot<br/> 
-                Plain or Sesame Seed Bun<br/>
-               Pickle, onion, tomato, and lettuce<br/>
-               Served with our house-made chips<br/>
-               french fries<br/>
-               $8.95
-            </article><br/>
-            <article>
-                <strong>House Salad</strong>
-                <br/>An Summer Classical<br/> 
-                Your choice-with or without cheese<br/>
-               Iceberg lettuce, tomatoes, peppers<br/>
-               Thousand Island or Ranch<br/>
-               Dressubg Served with a dinner roll<br/>
-               $6.95
-            </article><br/>
-            <article>
-                <strong>Brisket Sandwich and Fries</strong>
-                <br/>A Taste of Texas!<br/> 
-                Smoked Brisket on thick-cut<br/>
-               Texas Toast<br/>
-               Cole Slaw<br/>
-               Served with our famous thick-cut<br/>
-               French fries<br/>
-               $7.95
-            </article><br/>
-        </section> 
-        <section>
-            <table>
-                <thead align="left">
-                    <tr >
-                        <th>Beverages</th>
-                        <th></th>
-                     </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Root Beer</td>
-                    <td>$3.00 </td>
-                </tr>
-                <tr>
-                    <td>Bottled Water</td>
-                    <td>$1.25 </td>
-                </tr>
-                <tr>
-                    <td>Lemonade</td>
-                    <td>$1.00 </td>
-                </tr>
-                <tr>
-                    <td>Iced Tea</td>
-                    <td>$1.25 </td>
-                </tr>
-            </tbody>
-            </table>
-        </article>
-        </section>
-       <hr/>
-        <footer>
-            <p> 3624 W 50th Street Minneapolis, MN 55410</p>
-            <P>  Main Line: 612-767-4411 </p>
-        </footer> 
-        <hr/>  
-    </Main>
-    
-</body>
+            <footer>
+                <p> 3624 W 50th Street Minneapolis, MN 55410</p>
+                <P>  Main Line: 612-767-4411 </p>
+            </footer> 
+            <hr/>  
+        </Main>
+        	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    </body>
 </html>

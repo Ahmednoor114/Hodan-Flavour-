@@ -1,0 +1,129 @@
+
+
+/* General styling */
+
+body {
+    background-color: #ddd4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #01070c;
+    /* max-width: 1000px; */
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+   
+}
+
+header, footer {
+    background-color: #030e3f;
+    color: #57e4b5;
+    height: 100px;
+    text-align: center;
+    /* padding: 30px 10px 20px 10px; */
+}
+.main-header,
+.restaurantName,
+.main-nav {
+    width: 98%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+
+/* main header syling */
+.main-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+ 
+
+}
+.main-header h1 {
+    margin-right: auto;
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  /* rest - name  */
+  .restaurantName {
+      text-align: center;
+      font-size: 2em;
+      color: green;
+  }
+
+  /* nav- styling */
+  .main-nav {
+      height: 30px;
+      margin: 5px auto;
+  }
+
+  /* container styling */
+
+  .main-container,
+  form,
+  .carousel {
+    width: 80%;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+  }
+  .main-container div {
+    width: 400px;
+    margin: 5px auto;
+  }
+
+
+h1{
+    font-size: 1.4em;
+}
+nav a {
+    background-color:brown;
+    color: #57e4b5;
+    padding: 3px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 5px 5px;
+    width: 100px;
+    float: left;
+}
+nav a:hover {
+    background-color: #fef9ff;
+    color: black
+}
+nav a:active {
+    font-weight: bold;
+}
+nav a:visited{
+    color: #e4c3ad;
+}
+table, th, td {
+    border: 1px solid #0d1f2d;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+table {
+    width: 30%;
+    /* margin: ; */
+
+}
+
+tr {
+    height: 30px;
+}
+
+th {
+    background-color: #546a7b; 
+    color: #f2eded;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #add3e4; 
+} 
